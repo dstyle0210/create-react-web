@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="/js/templates.components.js"></script>
 </head>
 <body>
-
-메인페이지
-
+    메인메인
+    <div id="root"></div>
+    <script>
+        ReactDOM.render(
+            React.createElement(P_Main,{btnName:"버튼"}),
+            document.getElementById("root")
+        );
+    </script>
 </body>
 </html>

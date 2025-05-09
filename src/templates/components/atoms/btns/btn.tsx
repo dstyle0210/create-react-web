@@ -3,6 +3,6 @@ interface A_Btns_Props {
 }
 const A_Btns = (props:A_Btns_Props) => {
     return (
-        <header>{props.name}헤더내용</header>
+        <button>{props.name}버튼</button>
     );
 }
